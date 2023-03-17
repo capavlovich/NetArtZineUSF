@@ -1,0 +1,32 @@
+* {
+    margin: -1%;
+    padding: 0;
+  }
+  body {
+    background: radial-gradient(#e66465, #9198e5);
+  }
+  a {
+    background: none;
+    position: relative;
+    width: auto;
+    top: 20%;
+    left: 10%;
+   }
+
+.awake:hover {
+  opacity: 20%;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+  cursor: cell;
+}
+   .asleep {
+    position: relative;
+    top: 80%;
+    right: 15%;
+    background: none;
+    transition-duration: 10s;
+    opacity: 1;
+    transition-timing-function: ease-in;
+    animation-iteration-count: infinite;
+   }

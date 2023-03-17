@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin-top: -2%;
+    margin-right: -.5%;
+    margin-left: -.5%;
+  }
+body {
+    animation-name: color;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes color {
+    25% {background-color: aquamarine;}
+    50% {background-color: black;}
+    75% {background-color: blue;}
+    100% {background-color: aquamarine;}
+}
+.below {
+    background: none;
+}
+.below {
+    animation-duration: 10s;
+    animation-name: below;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes below {
+   from {left:50%; top:20%;}
+  to {left:50%; top:90%;}
+}

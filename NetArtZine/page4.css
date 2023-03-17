@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin-top: -1%;
+    margin-right: -.5%;
+    margin-left: -.5%;
+  }
+  a {
+    position: relative;
+    top: 20%;
+    left: 10%;
+
+}
+.dismantle {
+    position: relative;
+    top: 70%;
+    left: 10%;
+    height:auto;
+    width: 45%;
+}
+.create {
+
+}
+.create:hover{
+    transform: scale(150%);
+    transition-duration: 3s;
+}
+.dismantle{
+
+}
+.dismantle:hover{
+    transform: scale(20%);
+    transition-duration: 3s;
+}

@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin-top: -2.5%;
+  }
+body {
+    background-image: repeating-conic-gradient(rgb(35, 193, 169) 15%, rgb(22, 71, 131) 20%);
+}
+a {
+    position: relative;
+    top: 25%;
+    left: 5%;
+
+}
+.destruction {
+    position: relative;
+    top: 80%;
+    left: 30%;
+    background: none;
+}
+
+.fertilization {
+
+}
+.fertilization:hover {
+    transform: scale(5,2);
+    transition-duration: 3s;
+
+}

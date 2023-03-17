@@ -1,0 +1,49 @@
+
+* {
+  margin-top: -1%;
+  margin-right: -.2%;
+  margin-left: -.2%;
+  padding: 0;
+}
+div {
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {background-color: #1500ff;}
+  to {background-color: #fd2706;}
+}
+.nobutton {
+  position: relative;
+  top: 20%;
+  height: 20%;
+  width: auto;
+}
+.no:hover {
+  background-color: black;
+}
+a {
+ position: relative;
+ bottom: 70%;
+ left: 35%;
+ height: 10%;
+ width: auto;
+}
+.feel {
+position: relative;
+ top: 80%;
+ left: 5%;
+}
+.see {
+  position: relative;
+  top: 25%;
+  left: 35%;
+}
+.no {
+  position: relative;
+  bottom: 30%;
+  left: 55%
+}
+
+/* how do i remove margin header and footer space */
